@@ -54,7 +54,7 @@ q{
 .languages>a{
     text-decoration: none;
     /*border: 1px solid red;*/
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: bisque;
     padding: 0px 20px 0px 20px;
     transition: 0.8;
@@ -83,7 +83,4 @@ footer{
 }
 .btn1{
     display: none;
-    }
- .btn2{
-    display: none;    
     }
