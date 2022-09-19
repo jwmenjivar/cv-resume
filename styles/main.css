@@ -83,9 +83,11 @@ footer{
     height: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    color:rgb(190, 177, 177);
 }
 
 p{
     color: whitesmoke;
+    text-align: center;
 }
