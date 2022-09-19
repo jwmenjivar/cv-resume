@@ -44,6 +44,7 @@ q{
     font-style: italic;
     color: gold;
     margin-bottom: 30px;
+    text-align:center;
 }
 .languages{
     margin-top: 10px;
@@ -81,6 +82,3 @@ footer{
     flex-direction: column;
     align-items: center
 }
-.btn1{
-    display: none;
-    }
