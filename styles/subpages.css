@@ -65,6 +65,9 @@ header>h2, h2>a{
 .pointless>li{
     list-style-type: none;
 }
+.intro{
+    padding: 50px;
+}
 .intro>p{
     display: flex;
     flex-direction: column;
