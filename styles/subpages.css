@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 body{
     display: flex;
@@ -8,9 +10,20 @@ body{
     align-items: center;
     
 }
+header{
+    background-color: rgb(21, 39, 41);
+    color: aliceblue;
+    width: 100%;
+    padding: 50px;
+}
+section{
+    /*border:5px solid green;*/
+    padding: 10px;
+}
 .container{
+   /* border: 1px solid red;*/
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
 }
 li{
     margin: 20px;
@@ -18,19 +31,24 @@ li{
 
 
 .div1, .div2, .div3{
-    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 2%;
+    border-radius: 10px;
     margin: 10px;
+    padding: 20px;
     background-color: rgb(221, 255, 187);
-    padding-right: 40px;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+}
 h2{
     display: flex;
     justify-content: center;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 .pointless>li{
     list-style-type: none;
@@ -44,4 +62,11 @@ h2{
     align-items: center;
     list-style-type: none;
     margin: 0px;
+}
+div>p{
+    margin: 0px;
+}
+
+footer{
+    padding: 20px;
 }
