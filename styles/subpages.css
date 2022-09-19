@@ -1,0 +1,27 @@
+*{
+
+}
+
+.container{
+    display: flex;
+}
+li{
+    margin: 20px;
+}
+
+#div1{
+    border: 1px solid gray;
+}
+#div2{
+    border: 1px solid gray;
+}
+#div3{
+    border: 1px solid gray;
+}
+
+#div3>ul>li{
+    list-style-type: none;
+}
+#div2>ul>li{
+    list-style-type: none;
+}
