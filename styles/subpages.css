@@ -45,7 +45,9 @@ li{
 h1{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 h2{
     display: flex;
     justify-content: center;
@@ -53,10 +55,17 @@ h2{
     border-radius: 10px;
     text-decoration: none;
 }
+header{
+    text-align: center;
+}
 header>h2, h2>a{
-    color: rgb(76, 76, 125);
+    color: rgb(84, 84, 138);
     border: none;
     text-decoration: none;
+}
+
+header>h2{
+    color:aquamarine;
 }
 
 .pointless>li{
