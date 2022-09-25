@@ -96,7 +96,11 @@ div>p{
 
 footer{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 button{
     border-color: aqua;
     padding: 7px;
